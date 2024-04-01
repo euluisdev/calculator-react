@@ -14,3 +14,13 @@ button {
     background-color: black;
     border-radius: 1em;
 }
+
+.orange {
+    background-color: #FF9500;
+    color: white;
+}
+
+.gray {
+    background-color: #505050;
+    color: white;
+}
