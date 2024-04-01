@@ -1,13 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import Calculator from './components/Calculator';
 
 function App() {
 
   return (
     <>
-      <p>
-        Ceuluis-dev
-      </p>
+      <Calculator />
     </>
   )
 }
