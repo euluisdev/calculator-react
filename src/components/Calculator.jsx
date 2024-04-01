@@ -1,9 +1,10 @@
 import React from "react";
+import './Calculator.css'
 
 function Calculator() {
 
     return (
-        <div>
+        <div className="wrapper" >
             <button>1</button>
             <button>2</button>
             <button>3</button>

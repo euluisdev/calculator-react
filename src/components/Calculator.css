@@ -1,0 +1,11 @@
+button {
+    width: 3em;
+    height: 3em;
+    cursor: pointer;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+    justify-content: center;
+    align-items: center;
+}
