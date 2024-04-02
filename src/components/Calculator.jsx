@@ -3,11 +3,20 @@ import './Calculator.css'
 import { Box, Container } from "@mui/material";
 
 function Calculator() {
-    const [num, setNum] = useState('0');
+    const [num, setNum] = useState(0);
 
     function updateScreen (e) {
         const inputValue = e.target.innerText;
-        setNum(prevNum => prevNum === '0' ? inputValue : prevNum + inputValue);
+
+        if (num === 0) {
+            setNum(inputValue);
+        } else {
+            setNum(num + inputValue);
+        }
+    }
+
+    function clear (e) {
+        setNum(0);
     }
 
     return (
@@ -15,9 +24,9 @@ function Calculator() {
             <Box m={6} />
             <Container maxWidth="xs">
                 <div className="wrapper">
-                    <h1 className="resOperation">{num}</h1>
+                    <h1 className="resOperation">{num}</h1> 
                     <Box m={9} />
-                    <button>AC</button>
+                    <button onClick={clear}>AC</button>
                     <button>+/-</button>
                     <button>%</button>
                     <button className="orange">/</button>
