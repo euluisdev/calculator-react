@@ -1,16 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import './Calculator.css'
 import { Box, Container } from "@mui/material";
 
 function Calculator() {
+    const [current, setCurrent] = useState(0);
 
     return (
         <div>
             <Box m={6} />
             <Container maxWidth="xs">
                 <div className="wrapper">
-                    <h1 className="resOperation">22</h1>
-                    <Box m={10} />
+                    <h1 className="resOperation">{current}</h1>
+                    <Box m={9} />
                     <button>AC</button>
                     <button>+/-</button>
                     <button>%</button>
