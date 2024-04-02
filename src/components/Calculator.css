@@ -24,3 +24,7 @@ button {
     background-color: #505050;
     color: white;
 }
+
+.wide {
+    width: 6.6em;
+}

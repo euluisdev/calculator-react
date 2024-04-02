@@ -25,9 +25,9 @@ function Calculator() {
                     <button className="gray">2</button>
                     <button className="gray">3</button>
                     <button className="orange">+</button>
-                    <button className="gray">0</button>
+                    <button className="gray wide">0</button>
                     <button className="gray">,</button>
-                    <button>=</button>
+                    <button className="orange">=</button>
                 </div>
             </Container>
         </div>
