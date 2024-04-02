@@ -6,12 +6,12 @@ button {
     border: none;
     border-radius: 2em;
     margin: 0.3em;
-    margin-left: 0.7em;
 }
 
 .wrapper {
     background-color: black;
     border-radius: 1em;
+    padding: 1em;
 }
 
 .orange {
@@ -25,5 +25,12 @@ button {
 }
 
 .wide {
-    width: 7em;
+    width: 6.6em;
+}
+
+.resOperation {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
 }

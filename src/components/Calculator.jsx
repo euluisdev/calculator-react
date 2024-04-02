@@ -9,6 +9,7 @@ function Calculator() {
             <Box m={6} />
             <Container maxWidth="xs">
                 <div className="wrapper">
+                    <h1 className="resOperation">22</h1>
                     <button>AC</button>
                     <button>+/-</button>
                     <button>%</button>
