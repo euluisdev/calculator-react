@@ -6,8 +6,7 @@ button {
     border: none;
     border-radius: 2em;
     margin: 0.3em;
-    justify-content: center;
-    align-items: center;
+    margin-left: 0.7em;
 }
 
 .wrapper {
@@ -26,5 +25,5 @@ button {
 }
 
 .wide {
-    width: 6.6em;
+    width: 7em;
 }

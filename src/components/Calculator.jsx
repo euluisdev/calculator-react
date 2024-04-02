@@ -7,8 +7,8 @@ function Calculator() {
     return (
         <div>
             <Box m={6} />
-            <Container maxWidth="xs" >
-                <div className="wrapper" >
+            <Container maxWidth="xs">
+                <div className="wrapper">
                     <button>AC</button>
                     <button>+/-</button>
                     <button>%</button>
