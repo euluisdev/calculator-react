@@ -15,8 +15,12 @@ function Calculator() {
         }
     }
 
-    function clear (e) {
+    function clear () {
         setNum(0);
+    }
+
+    function percentage () {
+        setNum(num / 100);
     }
 
     return (
