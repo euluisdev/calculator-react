@@ -32,7 +32,7 @@ function Calculator() {
                     <Box m={9} />
                     <button onClick={clear}>AC</button>
                     <button>+/-</button>
-                    <button>%</button>
+                    <button onClick={percentage}>%</button>
                     <button className="orange">/</button>
                     <button className="gray" onClick={updateScreen}>7</button>
                     <button className="gray" onClick={updateScreen}>8</button>
