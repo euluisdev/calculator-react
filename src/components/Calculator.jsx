@@ -39,7 +39,7 @@ function Calculator() {
                     <h1 className="resOperation">{num}</h1> 
                     <Box m={9} />
                     <button onClick={clear}>AC</button>
-                    <button>+/-</button>
+                    <button onClick={handlesReverseSignal}>+/-</button>
                     <button onClick={percentage}>%</button>
                     <button className="orange">/</button>
                     <button className="gray" onClick={updateScreen}>7</button>
