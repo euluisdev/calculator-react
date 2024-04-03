@@ -31,6 +31,11 @@ function Calculator() {
         }
     }
 
+    function changeOperation (e) {
+        const operation = e.target.innerText;
+        console.log(changeOperation);
+    }
+
     return (
         <div>
             <Box m={6} />
