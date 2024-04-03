@@ -23,6 +23,14 @@ function Calculator() {
         setNum(num / 100);
     }
 
+    function handlesReverseSignal () {
+        if (num > 0) {
+            setNum(-num);
+        } else {
+            setNum(Math.abs(num));
+        }
+    }
+
     return (
         <div>
             <Box m={6} />
