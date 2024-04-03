@@ -33,7 +33,7 @@ function Calculator() {
 
     function changeOperation (e) {
         const operation = e.target.innerText;
-        console.log(changeOperation);
+        console.log(operation);
     }
 
     return (
@@ -46,19 +46,19 @@ function Calculator() {
                     <button onClick={clear}>AC</button>
                     <button onClick={handlesReverseSignal}>+/-</button>
                     <button onClick={percentage}>%</button>
-                    <button className="orange">/</button>
+                    <button className="orange" onClick={changeOperation}>/</button>
                     <button className="gray" onClick={updateScreen}>7</button>
                     <button className="gray" onClick={updateScreen}>8</button>
                     <button className="gray" onClick={updateScreen}>9</button>
-                    <button className="orange" onClick={updateScreen}>*</button>
+                    <button className="orange" onClick={changeOperation}>*</button>
                     <button className="gray" onClick={updateScreen}>4</button>
                     <button className="gray" onClick={updateScreen}>5</button>
                     <button className="gray" onClick={updateScreen}>6</button>
-                    <button className="orange">-</button>
+                    <button className="orange" onClick={changeOperation}>-</button>
                     <button className="gray" onClick={updateScreen}>1</button>
                     <button className="gray" onClick={updateScreen}>2</button>
                     <button className="gray" onClick={updateScreen}>3</button>
-                    <button className="orange">+</button>
+                    <button className="orange" onClick={changeOperation}>+</button>
                     <button className="gray wide" onClick={updateScreen}>0</button>
                     <button className="gray" onClick={updateScreen}>,</button>
                     <button className="orange">=</button>
