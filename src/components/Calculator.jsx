@@ -4,6 +4,8 @@ import { Box, Container } from "@mui/material";
 
 function Calculator() {
     const [num, setNum] = useState(0);
+    const [oldNumber, setOldNumber] = useState(0);
+    const [fourOperation, setFourOperation] = useState()
 
     function updateScreen (e) {
         const inputValue = e.target.innerText;
