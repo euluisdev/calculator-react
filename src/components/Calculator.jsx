@@ -35,7 +35,9 @@ function Calculator() {
 
     function changeOperation (e) {
         const operation = e.target.innerText;
-        console.log(operation);
+        setFourOperation(operation);
+        setOldNumber(num);
+        setNum(0);
     }
 
     return (
