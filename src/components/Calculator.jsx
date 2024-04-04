@@ -40,6 +40,13 @@ function Calculator() {
         setNum(0);
     }
 
+    function processEqual () {
+        console.log('Calculou!');
+        console.log(oldNumber);
+        console.log(num);
+        console.log(fourOperation);
+    }
+
     return (
         <div>
             <Box m={6} />
@@ -65,7 +72,7 @@ function Calculator() {
                     <button className="orange" onClick={changeOperation}>+</button>
                     <button className="gray wide" onClick={updateScreen}>0</button>
                     <button className="gray" onClick={updateScreen}>,</button>
-                    <button className="orange">=</button>
+                    <button className="orange" onClick={processEqual}>=</button>
                 </div>
             </Container>
         </div>
