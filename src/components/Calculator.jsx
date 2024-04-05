@@ -41,10 +41,15 @@ function Calculator() {
     }
 
     function processEqual () {
-        console.log('Calculou!');
-        console.log(oldNumber);
-        console.log(num);
-        console.log(fourOperation);
+        if (fourOperation === '/') {
+            setNum(oldNumber / num)
+        } else if (fourOperation === '*') {
+            setNum(oldNumber * num);
+        } else if (fourOperation === '-') {
+            setNum(oldNumber - num);
+        }else if (fourOperation === '+') {
+            setNum(parseFloat(oldNumber) + parseFloat(num));
+        }
     }
 
     return (
@@ -71,7 +76,7 @@ function Calculator() {
                     <button className="gray" onClick={updateScreen}>3</button>
                     <button className="orange" onClick={changeOperation}>+</button>
                     <button className="gray wide" onClick={updateScreen}>0</button>
-                    <button className="gray" onClick={updateScreen}>,</button>
+                    <button className="gray" onClick={updateScreen}>.</button>
                     <button className="orange" onClick={processEqual}>=</button>
                 </div>
             </Container>
