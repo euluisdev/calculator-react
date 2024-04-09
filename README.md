@@ -30,7 +30,7 @@ divisão, além de permitir a inserção de números, limpar a tela, calcular a 
 
 - npm install vite@latest
 
-3.Execute o projeto com Vite:
+3. Execute o projeto com Vite:
 
 -npm run dev
 
