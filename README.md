@@ -32,7 +32,7 @@ divisão, além de permitir a inserção de números, limpar a tela, calcular a 
 
 3. Execute o projeto com Vite:
 
--npm run dev
+- npm run dev
 
 4. A calculadora estará disponível em seu navegador no endereço http://localhost:3000.
 
