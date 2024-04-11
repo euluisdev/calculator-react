@@ -10,6 +10,10 @@ function Calculator() {
     function updateScreen (e) {
         const inputValue = e.target.innerText;
 
+        if (inputValue === '.' && num.toString().includes('.')) {
+            return;
+        }
+
         if (num === 0) {
             setNum(inputValue);
         } else {
