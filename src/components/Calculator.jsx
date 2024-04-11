@@ -30,11 +30,7 @@ function Calculator() {
     }
 
     function handlesReverseSignal () {
-        if (num > 0) {
-            setNum(-num);
-        } else {
-            setNum(Math.abs(num));
-        }
+        setNum(prevNum => -prevNum); 
     }
 
     function changeOperation (e) {
