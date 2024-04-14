@@ -1,4 +1,5 @@
 # Calculadora Simples em React
+## Cópia simples da calculadora do IOS, com todas funcionalidaes iniciais.
 
 Este é um projeto de uma calculadora simples desenvolvida em React. A calculadora realiza operações básicas de adição, subtração, multiplicação e 
 divisão, além de permitir a inserção de números, limpar a tela, calcular a porcentagem e inverter o sinal.
