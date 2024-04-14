@@ -20,6 +20,7 @@ divisão, além de permitir a inserção de números, limpar a tela, calcular a 
 
 - React
 - Material-UI
+- VITE
 
 ## Como Executar o Projeto
 
