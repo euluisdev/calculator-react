@@ -56,23 +56,3 @@ vontade para abrir uma issue ou enviar um pull request.
 
 ## Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
